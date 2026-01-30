@@ -13,11 +13,7 @@ namespace Api.Services
             Random randomNum = new Random();
             randomPrompts = randomNum.Next(1, 9);
 
-            if (userQuestion == "")
-            {
-                return "You need to enter a question. Please try again.";
-            }
-            else
+            if (userQuestion.Contains("?"))
             {
                 switch (randomPrompts)
                 {
@@ -40,6 +36,10 @@ namespace Api.Services
                     default:
                         break;
                 }
+            }
+            else
+            {
+                return "You need to enter a question. Please try again.";
             }
             return "Fires";
         }
