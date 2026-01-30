@@ -1,1 +1,1 @@
-Peer review - 
+Peer review - Brandon Van Horn - code runs well and i liked you madlib story and i found some of the get projects dont check for invalid endpoints but some do good work on that but might want to add more error checking
