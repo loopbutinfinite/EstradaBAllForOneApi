@@ -33,3 +33,4 @@
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBAllForOneApi/Api/obj/Release/net9.0/Api.pdb
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBAllForOneApi/Api/obj/Release/net9.0/Api.genruntimeconfig.cache
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBAllForOneApi/Api/obj/Release/net9.0/ref/Api.dll
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBAllForOneApi/Api/obj/Release/net9.0/Api.sourcelink.json
