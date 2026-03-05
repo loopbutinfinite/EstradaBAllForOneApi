@@ -13,34 +13,28 @@ namespace Api.Services
             Random randomNum = new Random();
             randomPrompts = randomNum.Next(1, 9);
 
-            if (userQuestion.Contains("?"))
+            switch (randomPrompts)
             {
-                switch (randomPrompts)
-                {
-                    case 1:
-                        return "Absolutely!";
-                    case 2:
-                        return "Without a doubt!";
-                    case 3:
-                        return "Likely.";
-                    case 4:
-                        return "Yes";
-                    case 5:
-                        return "No";
-                    case 6:
-                        return "Uncertain";
-                    case 7:
-                        return "Perhaps";
-                    case 8:
-                        return "Ask again.";
-                    default:
-                        break;
-                }
-            }
-            else
-            {
-                return "You need to enter a question. Please try again.";
-            }
+                case 1:
+                    return "Absolutely!";
+                case 2:
+                    return "Without a doubt!";
+                case 3:
+                    return "Likely.";
+                case 4:
+                    return "Yes";
+                case 5:
+                    return "No";
+                case 6:
+                    return "Uncertain";
+                case 7:
+                    return "Perhaps";
+                case 8:
+                    return "Ask again.";
+                default:
+                    break;
+            };
+
             return "Fires";
         }
     }

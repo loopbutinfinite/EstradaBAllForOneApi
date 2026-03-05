@@ -16,6 +16,7 @@ builder.Services.AddScoped<OddOrEvenService>();
 builder.Services.AddScoped<RestaurantPickerService>();
 builder.Services.AddScoped<ReverseItAlphanumericService>();
 builder.Services.AddScoped<ReverseItNumbersOnlyService>();
+builder.Services.AddScoped<GreaterThanLessThanService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
